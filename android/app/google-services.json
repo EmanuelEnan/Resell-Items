@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "743818596029",
+    "project_id": "fir-phone-otp-bc070",
+    "storage_bucket": "fir-phone-otp-bc070.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743818596029:android:978b335c52d763165731d4",
+        "android_client_info": {
+          "package_name": "com.example.backend_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743818596029-8jskqmlotf0e3vb08v68cmpgtj19gi39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeQox1LNNQAqhXJATzOZr5kl0xMfG13Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743818596029-8jskqmlotf0e3vb08v68cmpgtj19gi39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
