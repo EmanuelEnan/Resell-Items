@@ -97,14 +97,14 @@ class _HomePageState extends State<HomePage> {
                           ),
                           child: Column(
                             children: [
-                              // snapshot.data![index].image!.isNotEmpty
-                              //     ? Image.file(
-                              //         File(snapshot.data![index].image!),
-                              //         width: 300,
-                              //         height: 300,
-                              //         fit: BoxFit.scaleDown,
-                              //       )
-                              //     : Container(),
+                              snapshot.data![index].image!.isNotEmpty
+                                  ? Image.file(
+                                      File(snapshot.data![index].image!),
+                                      width: 300,
+                                      height: 300,
+                                      fit: BoxFit.scaleDown,
+                                    )
+                                  : Container(),
                               Text(
                                 DateFormat('yyyy-MM-dd KK:mm:ss a')
                                     .format(
